@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armor King vs Azrael - Fight!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game-container">
+    <div id="ui-layer">
+        <!-- Player 1 UI -->
+        <div style="width: 100%">
+            <div class="name-tag">Tiger</div>
+            <div class="health-bar-wrapper">
+                <div id="p1-health" class="health-bar"></div>
+            </div>
+        </div>
+
+        <!-- Timer -->
+        <div id="timer">60</div>
+
+        <!-- Player 2 UI -->
+        <div style="width: 100%; display: flex; flex-direction: column; align-items: flex-end;">
+            <div class="name-tag">Azrael</div>
+            <div class="health-bar-wrapper">
+                <div id="p2-health" class="health-bar"></div>
+            </div>
+        </div>
+    </div>
+    <div id="result-display">KO</div>
+    <canvas id="gameCanvas"></canvas>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
